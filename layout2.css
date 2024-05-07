@@ -1,0 +1,43 @@
+.product-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container div {
+  width: 25%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .product-container div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-container div {
+    width: 100%;
+  }
+}
+
+.snowflake {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  /* animation: fall 10s linear; */
+}
+
+@keyframes fall {
+  from {
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}

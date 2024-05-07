@@ -1,0 +1,25 @@
+body {
+  background-color: #f7f9fc;
+}
+
+.profile {
+  background-color: white;
+}
+
+.bi-fire {
+  font-size: 10rem;
+  color: #6fbaf8;
+}
+
+.profile-info button {
+  background-color: #6fbaf8;
+  border: none;
+}
+
+.location {
+  color: #6fbaf8;
+}
+
+.location i {
+  font-size: 1.3rem;
+}
